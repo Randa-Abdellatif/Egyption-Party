@@ -1,0 +1,109 @@
+#sideBar
+{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    
+}
+
+.sideBar-inner
+{
+    position: relative;
+    background-color: #414658;
+    display: flex;
+    flex-direction: column;
+}
+.sideBar-inner .btn
+{
+position: absolute;
+top: 25px;
+right: 25px;
+}
+
+.sideBar-inner a
+{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+#sideBar i{
+    align-self: flex-start;
+    transform: translateY(100%);
+    color: #fff;
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+header
+{
+    background:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url(../events-heavenly-header.jpg) ;
+    /* background-image: url(../events-heavenly-header.jpg); */
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 85vh;
+}
+
+#singers h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#singers div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+#counter
+{
+    background:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url(../invitation-2508607__340.jpg) ;
+    /* background-image: url(../events-heavenly-header.jpg); */
+    background-position: center center;
+    background-size: 100% 100%;
+    /* height: 40vh; */
+}
+
+
+#counter .col-md-3 h3
+{
+    border: 1px solid white;
+    padding: 70px 0px;
+    color: white;
+}
+
+#contact .social i
+{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#contact .social i:hover
+{
+    background-color: rgb(223, 60, 60);
+    color: white;
+}
